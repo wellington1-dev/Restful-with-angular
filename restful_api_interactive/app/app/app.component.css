@@ -1,0 +1,33 @@
+.root {
+    border: 5px solid orange;
+    border-radius: 10px;
+    padding:10px;
+    color: blue;
+    text-align: center;
+}
+button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.btn{
+    background-color: rgb(76, 147, 175);
+    border: none;
+    color: white;
+    border-radius: 50px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
