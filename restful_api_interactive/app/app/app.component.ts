@@ -22,16 +22,8 @@ export class AppComponent implements OnInit {
 
     const observable = this._httpService.getTasks();
     observable.subscribe(data => {
-      console.log("Got our tasks!", data);
+      console.log('Got our tasks!', data);
       this.tasks = data;
-    });
-
-  }
-  getTask(id) {
-    const observable = this._httpService.getTask(id);
-    observable.subscribe(data => {
-      console.log("got our Task!", data);
-      this.tasks = id;
     });
   }
   onClick() {
